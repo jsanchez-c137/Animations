@@ -161,8 +161,60 @@ li {
 }
 
 .card5:hover{
+    transform-origin:  bottom;
+    transform: rotate(30deg);
     
 }
+
+.card6:hover{
+    transform-origin: right;
+    opacity: 0.8;
+    
+    transform-style: preserve-3d;
+    transform: rotateY(75deg);
+    perspective: 100px;
+    
+}
+
+
+#card7{
+    
+    backface-visibility: hidden;
+}
+.card7{
+    background-color: rgb(245, 213, 255);
+}
+.card7:hover{
+    background-color: papayawhip;
+    transform: rotateX(70deg);
+}   
+
+div img {
+    width: 100px;
+    height: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
      /*Fotter*/ /*Fotter*/ /*Fotter*/ /*Fotter*/ /*Fotter*/
 
@@ -171,6 +223,7 @@ li {
             bottom: 0;
             width: 100%;
         }
+
         footer div{
             display: flex;
             background-color:  rgb(63, 62, 62);
